@@ -11,6 +11,14 @@ class LinkedList {
     this.size = 0;
   }
 
+  addToTail(valueToAdd) {
+    this.insertAt(this.size, valueToAdd)
+  }
+
+  addToHead(valueToAdd) {
+    this.insertAt(0, valueToAdd)
+  }
+
   insertAt(index, value) {
     // do nothing if index is out of range
     if(index > this.size) return;
@@ -89,14 +97,6 @@ class LinkedList {
     this.head = this.head.nextNode;
     this.size--;
     return oldHead;
-  }
-
-  addToTail(valueToAdd) {
-    this.insertAt(this.size, valueToAdd)
-  }
-
-  addToHead(valueToAdd) {
-    this.insertAt(0, valueToAdd)
   }
 
 }
