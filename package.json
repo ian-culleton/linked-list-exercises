@@ -1,0 +1,22 @@
+{
+  "name": "linked-list-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "npx mocha . -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-culleton/linked-list-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-culleton/linked-list-exercises/issues"
+  },
+  "homepage": "https://github.com/ian-culleton/linked-list-exercises#readme",
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
