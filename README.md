@@ -25,9 +25,9 @@ Solution code for these exercises may be found on the `solution` branch of this 
 
 ## List of methods to implement
 
-[ ] `addToTail(value)` — adds an item (or "node") to the end of the list.  The item's value is passed in as an argument.
-[ ] `addToHead(value)` — Adds an item to the beginning of the list.  Again, the item's value is passed in as an argument
-[ ] `removeFromTail()` — Removes an item from the end of the list.
-[ ] `removeFromHead()` — Removes an item from the beginning of the list
-[ ] `insertAt(index, value)` — inserts an item with the specified value into the list in the position specified by the `index` parameter.
-[ ] `removeAt(index)` — removes the item stored at the specified index.
+* [ ] `addToTail(value)` — adds an item (or "node") to the end of the list.  The item's value is passed in as an argument.
+* [ ] `addToHead(value)` — Adds an item to the beginning of the list.  Again, the item's value is passed in as an argument
+* [ ] `removeFromTail()` — Removes an item from the end of the list.
+* [ ] `removeFromHead()` — Removes an item from the beginning of the list
+* [ ] `insertAt(index, value)` — inserts an item with the specified value into the list in the position specified by the `index` parameter.
+* [ ] `removeAt(index)` — removes the item stored at the specified index.
