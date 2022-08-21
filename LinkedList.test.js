@@ -29,6 +29,16 @@ describe('LinkedList', () => {
       expect(testList.head.nextNode.nextNode.value).to.equal(3);
     })
 
+    it('should add a value to a list with a length of 4', () => {
+      testList.addToTail(1);
+      testList.addToTail(2);
+      testList.addToTail(3);
+      testList.addToTail(4);
+      testList.addToTail(5);
+
+      expect(testList.head.nextNode.nextNode.value).to.equal(3);
+    })
+
     it('should increment the "size" property', () => {
       testList.addToTail(1);
       testList.addToTail(2);
@@ -65,6 +75,7 @@ describe('LinkedList', () => {
       testList.addToHead(4);
       testList.addToHead(5);
 
+      expect(testList.head.value).to.equal(5);
       expect(testList.head.nextNode.nextNode.nextNode.nextNode.value).to.equal(1);
     })
     it('should increment the list\'s "size" property by 1', () => {
